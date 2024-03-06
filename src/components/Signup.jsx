@@ -22,6 +22,7 @@ function Signup() {
                 navigate("/")
             }
         } catch (error) {
+            
             setError(error.message)
         }
     }
